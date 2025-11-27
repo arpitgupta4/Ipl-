@@ -9,8 +9,9 @@ import pathlib  # For robust file paths
 # LOAD MODELS + ENCODERS
 # ============================================================
 
-with open("model.pkl", "rb") as f:
+with open("win_model.pkl", "rb") as f:
     ball_model = pickle.load(f)
+
 
 with open("encoders.pkl", "rb") as f:
     encoders = pickle.load(f)
