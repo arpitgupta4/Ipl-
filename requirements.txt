@@ -2,5 +2,5 @@ streamlit
 numpy
 pandas
 scikit-learn
-lightgbm
-base58
+lightgbm==4.3.0
+joblib
